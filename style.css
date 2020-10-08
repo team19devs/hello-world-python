@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: serif, Helvetica;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    color: rgb(46, 44, 44);
+    font-family: serif,Helvetica;
+}
+h1 {
+    color: black;
+    font-size: 40px;
+    text-align: left; 
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.main-text {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.author-text {
+    font-size: 20px;
+    float: inline-left;
+}
+.container {
+    width: 1140px;
+    margin: 20px auto 5px auto;
+}
+.blog-layout {
+    width: 75%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.other-layout {
+    width: 25%;
+    float: left;
+    background-color: rgba(75, 170, 46, 0.562);
+    border-radius: 1%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.author-layout {
+    border-top: 2px solid rgb(65, 64, 64);
+    padding-top: 7px;
+}
+.author-layout img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.leave-link {
+    text-align: right;
+    font: caption;
+    font-size: 22px;
+}
+.other {
+    margin: 10px 7px 230px 7px;
+}
